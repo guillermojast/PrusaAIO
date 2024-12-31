@@ -50,7 +50,7 @@
 //===========================================================================
 
 // Uncomment to set a custom printer name.
-//#define PRUSA_AIO_CUSTOM_PRINTER_NAME "AIO Bear"
+#define PRUSA_AIO_CUSTOM_PRINTER_NAME "AIO Bear SKR 1.4"
 
 //===========================================================================
 //================================ Tall Bear ================================
@@ -94,9 +94,9 @@
  * Wiring Guide: https://github.com/thisiskeithb/PrusaAIO/wiki/Supported-Motherboards-&-Wiring-Guide
  */
 //#define PRUSA_AIO_MOTHERBOARD_BTT_SKR_V3_0
-#define PRUSA_AIO_MOTHERBOARD_BTT_SKR_V3_0_EZ
+//#define PRUSA_AIO_MOTHERBOARD_BTT_SKR_V3_0_EZ
 //#define PRUSA_AIO_MOTHERBOARD_BTT_SKR_V2_0_REV_B
-//#define PRUSA_AIO_MOTHERBOARD_BTT_SKR_1_4
+#define PRUSA_AIO_MOTHERBOARD_BTT_SKR_1_4
 //#define PRUSA_AIO_MOTHERBOARD_BTT_SKR_1_4_TURBO
 //#define PRUSA_AIO_MOTHERBOARD_BTT_SKR_1_3
 //#define PRUSA_AIO_MOTHERBOARD_BTT_BTT002
@@ -198,7 +198,7 @@
 //#define PRUSA_AIO_INVERT_X_DIR
 //#define PRUSA_AIO_INVERT_Y_DIR
 //#define PRUSA_AIO_INVERT_Z_DIR
-//#define PRUSA_AIO_INVERT_E_DIR
+#define PRUSA_AIO_INVERT_E_DIR
 
 /**
  * Sensorless Homing
@@ -308,7 +308,7 @@
  * Connect probe to ZPROBE (5-pin) or SERVO (3-pin) + ZPROBE (2-pin) by default.
  * Uncomment if connecting probe to SERVO + Z MIN/Z STOP instead.
  */
-//#define PRUSA_AIO_PROBE_USES_Z_MIN_ENDSTOP_PIN
+#define PRUSA_AIO_PROBE_USES_Z_MIN_ENDSTOP_PIN
 
 /*
  * Custom Probe Offset
@@ -444,9 +444,9 @@
  *
  * LCD Covers: https://github.com/thisiskeithb/PrusaAIO/wiki/Recommended-LCD-Covers
  */
-#define PRUSA_AIO_DISPLAY_STOCK_REPRAP_DISCOUNT_SMART_CONTROLLER
+//#define PRUSA_AIO_DISPLAY_STOCK_REPRAP_DISCOUNT_SMART_CONTROLLER
 //#define PRUSA_AIO_DISPLAY_OLED_REPRAP_DISCOUNT_SMART_CONTROLLER
-//#define PRUSA_AIO_DISPLAY_BTT_DUAL_MODE_TFT
+#define PRUSA_AIO_DISPLAY_BTT_DUAL_MODE_TFT
 //#define PRUSA_AIO_DISPLAY_BTT_MINI_12864_NEOPIXEL
 //#define PRUSA_AIO_DISPLAY_FYSETC_MINI_12864_NEOPIXEL
 //#define PRUSA_AIO_DISPLAY_MKS_MINI_12864_NEOPIXEL
@@ -495,7 +495,7 @@
  *
  * Top-level menu with first layer calibration, nozzle change, semi-automated cold pull, and more.
  */
-//#define PRUSA_AIO_CALIBRATION_MENU
+#define PRUSA_AIO_CALIBRATION_MENU
 
 //===========================================================================
 //================================ NeoPixels ================================
